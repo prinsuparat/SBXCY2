@@ -1,5 +1,5 @@
 function f1(){
-    alert("太好来，晚上一起吃饭看电影！！！")
+    alert("太好了，你是傻狗！")
 }
 var flag=1;
 function f(){
@@ -28,5 +28,5 @@ function f(){
     }
 }
 function f2(){
-    alert('这不是你的真心话！');
+    alert('没用的，你就是撒苟！');
 }
