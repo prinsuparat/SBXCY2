@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🏀SB许灿阳🏀</title>
 
 <style>
@@ -45,7 +46,30 @@
         color: white;
     }
 </style>
-    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('./index_files/ikun.gif'); /* 替换为你的GIF URL */
+            background-size: contain; /* 覆盖整个页面，你也可以尝试contain根据需求调整 */
+            background-position: center center; /* 图片中心对齐页面中心 */
+            background-repeat: repeat; /* 不重复背景图 */
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            text-align: center;
+            padding: 100px;
+            color: white;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                background-size: contain; /* 小屏设备适应性调整 */
+                background-position: top center; /* 在小屏设备上顶部对齐，根据实际情况调整 */
+            }
+        }
+    </style>
 </head>
     
 <body>
@@ -74,6 +98,9 @@
 <div id="Bn" style="position:absolute; left:600px; top:235px;">
     <input type="button" value="不是!" class="button button2" onmouseover="f()" onclick="f2()">
 </div>
+<div class="content">
+</div>
 </body>
+
 
 </html>
