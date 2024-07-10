@@ -1,5 +1,5 @@
 function f1(){
-    alert("太好了，你是傻狗！")
+    alert("瓦，贞德食泥鸭！")
 }
 var flag=1;
 function f(){
@@ -28,5 +28,5 @@ function f(){
     }
 }
 function f2(){
-    alert('没用的，你就是撒苟！');
+    alert('你干嘛~哈哈~哎哟！');
 }
